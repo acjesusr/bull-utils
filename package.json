@@ -1,0 +1,20 @@
+{
+  "name": "bull-utils",
+  "version": "1.0.0",
+  "description": "Util scripts for handling bull queues",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "search": "node ./search-jobs.js",
+    "search:batch": "node ./search-jobs-batch.js",
+    "retry": "node ./retry-jobs.js"
+  },
+  "dependencies": {
+    "bull": "3.18.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "@types/bull": "3.14.4",
+    "@types/ioredis": "5.0.0"
+  }
+}
